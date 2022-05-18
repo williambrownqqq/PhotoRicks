@@ -12,17 +12,7 @@
     /* overflow: hidden; */
 }
 
-.title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: chocolate;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
-    width: 90%;
-    height: 80px;
-    margin-top: 100px;
-}
+
 .block {
     position: relative;
     width: 580px;
