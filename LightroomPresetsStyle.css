@@ -29,14 +29,14 @@
      text-align: center;
 }
 
-@media screen and (max-width:1600px) {
+@media screen and (max-width:1250px) {
     .LightRoomcards{
         margin-right: 100px;
         margin-left: 100px ;
    } 
 }
 
-@media screen and (max-width:1600px) {
+@media screen and (max-width:1250px) {
     .Lightroom-presets{
         flex-direction: column;
         align-items: center;
