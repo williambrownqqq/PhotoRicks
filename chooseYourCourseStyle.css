@@ -1,13 +1,14 @@
 .chooseYourCourse{
     
     background-color: rgb(162, 229, 217);
-    /* background-color: rgb(16, 0, 10); */
     margin: auto;
     width: 100%;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 100px;
+
 
 }
 .cards{
@@ -55,11 +56,23 @@
     left: 65px;
     bottom: 3px;
 }
+/* @media screen and (max-width:1600px) {
+    .cards{
+        margin: 100px;
+    }
+} */
+ @media screen and (max-width:1250px) {
+    .cards{
+        margin-right: 100px;
+        margin-left: 100px ;
+    }
+} 
 
-@media screen and (max-width:850px) {
-.cards{
-     margin: 40px;
-}
+@media screen and (max-width:1250px) {
+    .chooseYourCourse{
+        flex-direction: column;
+        align-items: center;
+    }
     
 }
 
