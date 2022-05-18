@@ -60,13 +60,16 @@
     left: 65px;
     bottom: 3px;
 }
-/* @media screen and (max-width:1600px) {
-    .cards{
-        margin: 40px;
-    }
-} */
+@media screen and (max-width:1650px) {
+   .cards{
+    width: 488px;
+    height: 725px;
+    margin-left: 40px;
+    margin-right: 40px;
+   }
+}
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1135px) {
     .chooseYourCourse{
         flex-direction: column;
    } 
@@ -75,18 +78,4 @@
     height: 825px;
    }
 }
- /* @media screen and (max-width:1250px) {
-    .cards{
-        margin-right: 100px;
-        margin-left: 100px ;
-    }
-}  */
-
-/* @media screen and (max-width:1250px) {
-    .chooseYourCourse{
-        flex-direction: column;
-        align-items: center;
-    }
-    
-} */
 
