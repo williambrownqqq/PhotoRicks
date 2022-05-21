@@ -20,7 +20,12 @@
     background-color: white;
     height: 625px;
     margin-bottom: 40px;
+    transition: all 200ms;
     
+}
+.cards:hover{
+        transform: translateY(-6px);
+        transition: all 200mss;
 }
 .card-img img{
     width: 100%;

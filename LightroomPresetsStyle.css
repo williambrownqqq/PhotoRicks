@@ -24,7 +24,13 @@
     flex-direction: column;
     justify-content: space-evenly;
     cursor: pointer;
+    transition: all 200ms;
     
+}
+
+.LightRoomcards:hover{
+    transform: translateY(-6px);
+    transition: all 200mss;
 }
 .LightRoomcard-img img{
     width: 100%;

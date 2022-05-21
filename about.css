@@ -25,6 +25,18 @@
     justify-content: center;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
+    background-color: brown;
+    font-size: 50px;
+    width: 90%;
+    height: 80px;
+    margin-top: 100px;
+}
+.aboutTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: brown;
     font-size: 50px;
     width: 90%;
     height: 80px;

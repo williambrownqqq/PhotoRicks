@@ -46,7 +46,7 @@
 
             <div id="content" class="content">
                 <div class="aboutProject">
-                    <p class="title">About Project</p>
+                    <p class="aboutTitle">About Project</p>
                 <div class="photoANDtext">
                     <div class="aboutTXT">
                         <p>Hello, i’m Alex. With a desire to share my experience and help others, at the start of 2022 I created PhotoTricks - my own internet project that focuses on both the craft and technique of film and digital photography.
@@ -155,6 +155,63 @@
                         </div>
                     </div> 
                 </div>
+
+                <div class="partners">
+                    <p class="title">Our partners</p>
+                    <section class="section">
+
+                        <div class="slider">
+ 
+                        <div class="slides">
+                            <input type ="radio" name="radio-btn" id="radio1">
+                            <input type ="radio" name="radio-btn" id="radio2">
+                            <input type ="radio" name="radio-btn" id="radio3">
+                            <input type ="radio" name="radio-btn" id="radio4">
+
+                            <div class="slide first">
+                                <h1>Kyle McDougall</h1>
+                                <div class="imagg">
+                                    <img src="fragments/gallery/kyle.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <h1>Peter McKinnon</h1>
+                                <div class="imagg">
+                                    <img src="fragments/gallery/peter.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <h1>Willem Verbeck</h1>
+                                <div class="imagg">
+                                    <img src="fragments/gallery/char.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <h1>Joe Greer</h1>
+                                <div class="imagg">
+                                    <img src="fragments/gallery/calvin.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="navigation-auto">
+                                <div class="auto-b1"></div>
+                                <div class="auto-b2"></div>
+                                <div class="auto-b3"></div>
+                                <div class="auto-b4"></div>
+                            </div>
+
+                            <div class="navigation-manual">
+                                <label for="radio1" class="manual-btn"></label>
+                                <label for="radio2" class="manual-btn"></label>
+                                <label for="radio3" class="manual-btn"></label>
+                                <label for="radio4" class="manual-btn"></label>
+                            </div>
+
+                        </div>
+                        
+                        </div>
+                    </section>
+                </div>
                 <!-- <div class="partners">
                     <p class="title">Our partners</p>
                     <div class="slider">
@@ -234,6 +291,7 @@
             $(".burger").on("click", function() {
                   $("nav ul").toggleClass("showing");
             });
+            
       });
 
 
@@ -246,17 +304,18 @@
       }
       </script>
 
-    <script src="index.js"></script>
-    <script>
-        var blocks = document.getElementsByClassName("block");
-        var container = document.getElementsByClassName("slider");
-        var hs = new HorizontalScroll.default({
-            blocks: blocks,
-            container: container,
-            isAnimated: false,
-            springEffect: 0.8,
-        });
-    </script>
+      <script type="text/javascript">
+        var counter=1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked=true;
+            counter++;
+            if(counter > 4){
+                counter = 1;
+            }
+        },5000);
+      </script>
+
+    
 
     
 
