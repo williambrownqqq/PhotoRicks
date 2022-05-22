@@ -6,10 +6,9 @@
 
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-around; */
-    padding-bottom: 100px;
-
     justify-content: space-evenly;
+    padding-bottom: 100px;
+    /* justify-content: space-between; */
     align-items: center;
     align-content: center;
 
@@ -20,9 +19,15 @@
     background-color: white;
     height: 625px;
     margin-bottom: 40px;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer; */
     transition: all 200ms;
     
 }
+
 .cards:hover{
         transform: translateY(-6px);
         transition: all 200mss;
@@ -48,6 +53,7 @@
     padding-left: 5px;
     padding-right: 5px;
      /*margin-bottom: 10px; */
+     
 }
 .grey-block{
     position: relative;
@@ -64,6 +70,11 @@
     position: absolute;
     left: 65px;
     bottom: 3px;
+}
+.cards a{
+    color: #000000;
+    text-decoration: none ;
+    border: none !important;
 }
 @media screen and (max-width:1650px) {
    .cards{
@@ -84,3 +95,77 @@
    }
 }
 
+
+
+
+/* 
+.chooseYourCourse{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    
+}
+.cards{
+    width: 388px;
+    background-color: white;
+    height: 625px;
+    margin-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+    transition: all 200ms;
+    
+}
+
+.cards:hover{
+    transform: translateY(-6px);
+    transition: all 200mss;
+}
+.cards-img img{
+    width: 100%;
+}
+
+.card-body p{
+    text-align: justify;
+    margin: 10px 10px 0 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+     text-align: center;
+     
+ 
+    
+
+}
+.cards a{
+    color: #000000;
+    text-decoration: none ;
+    border: none !important;
+}
+
+@media screen and (max-width:1650px) {
+    .chooseYourCourse{
+     width: 488px;
+     height: 725px;
+     margin-left: 40px;
+     margin-right: 40px;
+    }
+} 
+
+@media screen and (max-width:1135px) {
+    .chooseYourCourse{
+        flex-direction: column;
+   } 
+   .cards{
+    width: 588px;
+    height: 825px;
+   }
+}
+
+
+ */
