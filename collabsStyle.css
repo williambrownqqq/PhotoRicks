@@ -144,6 +144,9 @@
     }
 }
 @media(max-width: 750px){
+    .CollabTitle{
+        font-size: 32px;
+    }
     .card p {
         top: 60px;
         left: 50px;
@@ -154,6 +157,9 @@
     }
 }
 @media(max-width: 650px){
+    .CollabTitle{
+        font-size: 28px;
+    }
     .card p {
         top: 30px;
         left: 30px;
@@ -164,6 +170,9 @@
     }
 }
 @media(max-width: 550px){
+    .CollabTitle{
+        font-size: 24px;
+    }
     .card p {
         font-size: 33px;
         top: 20px;
@@ -176,6 +185,9 @@
     }
 }
 @media(max-width: 450px){
+    .CollabTitle{
+        font-size: 20px;
+    }
     .card p {
         font-size: 30px;
         top: 10px;
