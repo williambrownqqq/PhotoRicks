@@ -144,3 +144,14 @@ nav ul li a:hover {
     }
 
 }
+
+@media screen and (max-width:1000px) {
+    .cameraLogo{
+        width: 60px;
+    }
+    /*сам квадратик*/
+    .webLogo{
+        margin: 18px 50px;
+    }
+    }
+    

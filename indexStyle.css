@@ -30,7 +30,8 @@ header{
 .webLogo{
      display: flex;
     position: fixed;
-    margin: 8px 50px;
+    /* margin: 8px 50px; */
+    margin: 10px 50px;
 }
 .photoTricks{
    line-height: 60px;
@@ -113,7 +114,7 @@ nav ul li a:hover{
     display: none;
  
 }
-@media screen and (max-width:1600px) {
+@media screen and (max-width:1400px) {
     .burger{
         display: block;
     }
@@ -140,4 +141,14 @@ nav ul li a:hover{
             text-align: center;
       }
     
+}
+
+@media screen and (max-width:1000px) {
+.cameraLogo{
+    width: 60px;
+}
+/*сам квадратик*/
+.webLogo{
+    margin: 18px 50px;
+}
 }

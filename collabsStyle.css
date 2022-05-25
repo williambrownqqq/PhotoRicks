@@ -155,32 +155,36 @@
 }
 @media(max-width: 650px){
     .card p {
-        top: 50px;
-        left: 50px;
+        top: 30px;
+        left: 30px;
     } 
     .card h3{
-        top: 90px;
-        left: 50px;
+        top: 70px;
+        left: 30px;
     }
 }
 @media(max-width: 550px){
     .card p {
-        top: 40px;
-        left: 40px;
-    } 
-    .card h3{
-        top: 80px;
-        left: 40px;
-    }
-}
-@media(max-width: 450px){
-    .card p {
+        font-size: 33px;
         top: 20px;
         left: 20px;
     } 
     .card h3{
-        top: 70px;
+        font-size: 10px;
+        top: 60px;
         left: 20px;
+    }
+}
+@media(max-width: 450px){
+    .card p {
+        font-size: 30px;
+        top: 10px;
+        left: 10px;
+    } 
+    .card h3{
+        font-size: 8px;
+        top: 45px;
+        left: 10px;
     }
 }
 
