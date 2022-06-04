@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
 }
+
 .container{
     display: flex;
     justify-content: center;
@@ -12,7 +13,7 @@
     padding-left: 50px;
     padding-right: 50px;
     flex-direction: column;
-    /* background-color: aqua; */
+   
     width: 100%;
     padding-bottom: 50px;
 }
@@ -170,6 +171,7 @@
     }
 }
 @media(max-width: 550px){
+    .cameraLogo
     .CollabTitle{
         font-size: 24px;
     }

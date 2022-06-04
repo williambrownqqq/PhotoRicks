@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 html, body {
     margin: 0;
     padding: 0;
@@ -6,7 +7,8 @@ html, body {
 }
 
 body {
-    font-family: "Helvetica Neue",sans-serif;
+    /* font-family: "Helvetica Neue",sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
 }
 
@@ -18,6 +20,34 @@ header{
     background-repeat: no-repeat;
     height: 100vh;
 }
+header p{ 
+    position: absolute;
+    right: 17%;
+    bottom: 20%;
+    padding: 50px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+.button{
+    position: absolute;
+    right: 40%;
+    bottom: 20%;
+    border-radius: 15px;
+    background-color: rgb(162, 229, 217,0.5 );
+    border: none;
+    color: rgb(255, 255, 255, 1);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover {opacity: 1}
 
 /*сама картинка*/
 .cameraLogo{

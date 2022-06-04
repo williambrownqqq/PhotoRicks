@@ -24,15 +24,15 @@
             </div>
 
             <div class="menu">
-                <ul>
+                <ul id="navID">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Project</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a onclick="goTo('content')">About</a></li>
+                    <li><a href="collabs.html">Project</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li ><a id="aboutID">About</a></li>
                     <li><a href="contacts.html">Contact</a></li>
                 </ul>
             </div>
-            <div class="burger">
+            <div onclick="toggleMenu()" class="burger">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
@@ -135,15 +135,6 @@
         columnClass : '.wall-column'
     });
 
-
-
-              // Menu-toggle button
-
-              $(document).ready(function() {
-            $(".burger").on("click", function() {
-                  $("nav ul").toggleClass("showing");
-            });
-      });
-
 </script>
+<script type="text/javascript" src="index.js"></script>
 </html>

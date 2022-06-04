@@ -24,15 +24,15 @@
             </div>
 
             <div class="menu">
-                <ul>
+                <ul id="navID">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="collabs.html">Project</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
-                    <li><a onclick="goTo('content')">About</a></li>
+                    <li><a id="aboutID">About</a></li>
                     <li><a href="contacts.html">Contact</a></li>
                 </ul>
             </div>
-            <div class="burger">
+            <div onclick="toggleMenu()" class="burger">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
@@ -108,24 +108,7 @@
 
 
                 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-                <script type="text/javascript">
-                    // Menu-toggle button
-
-                    $(document).ready(function () {
-                        $(".burger").on("click", function () {
-                            $("nav ul").toggleClass("showing");
-                        });
-                    });
-
-
-
-                    //   js ` - interpolation
-                    function goTo(element) {
-                        document.querySelector(`#${element}`).scrollIntoView({
-                            behavior: 'smooth'
-                        });
-                    }
-                </script>
+                <script type="text/javascript" src="index.js"></script>
 
 
 

@@ -28,20 +28,26 @@
                         </div>
 
                         <div class="menu">
-                              <ul>
-                                    <li><a href="#">Home</a></li>
+                              <ul id="navID">
+                                    <li><a href="index.html">Home</a></li>
                                     <li><a href="collabs.html">Project</a></li>
                                     <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a onclick="goTo('content')">About</a></li>
+                                    <li ><a id="aboutID">About</a></li>
                                     <li><a href="contacts.html">Contact</a></li>
                               </ul>
                         </div>
-                        <div class="burger">
+                        <div onclick="toggleMenu()" class="burger">
                             <div class="line1"></div>
                             <div class="line2"></div>
                             <div class="line3"></div>
                         </div>
                   </nav>
+                <!-- <div class="titleText"> -->
+                  <p>20 years later a new story begins, but first,<br> a moment back in time.</p>
+                <!-- </div> -->
+                <a href="contacts.html" >
+                    <button class="button">View Details</button>
+                </a>
 
             </header>
 
@@ -232,27 +238,6 @@
                         </div>
                     </section>
                 </div>
-                <!-- <div class="partners">
-                    <p class="title">Our partners</p>
-                    <div class="slider">
-                   
-                    <div class="block block-1">
-                        <h1>asterisks.</h1>
-                    </div>
-                    <div class="block block-2">
-                        <h1>unlocked.</h1>
-                    </div>
-                    <div class="block block-3">
-                        <h1>offbeat.</h1>
-                    </div>
-                    <div class="block block-4">
-                        <h1>brutal.</h1>
-                    </div>
-                    <div class="block block-5">
-                        <h1>mouthwash.</h1>
-                    </div>
-                    </div>
-                </div> -->
             </div>
 
             <footer class="footer">
@@ -292,35 +277,7 @@
       </div>
 
       <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-      <script type="text/javascript">
-          $(window).on('scroll', function(){
-              if($(window).scrollTop()){
-                  $('nav').addClass('navy');
-              }
-              else{
-                $('nav').removeClass('navy');
-              }
-          })
-
-
-          // Menu-toggle button
-
-      $(document).ready(function() {
-            $(".burger").on("click", function() {
-                  $("nav ul").toggleClass("showing");
-            });
-            
-      });
-
-
-        
-        //   js ` - interpolation
-    function goTo(element) {
-            document.querySelector(`#${element}`).scrollIntoView({
-            behavior: 'smooth'
-        });
-      }
-      </script>
+      <script type="text/javascript" src="index.js"></script>
 
       <script type="text/javascript">
         var counter=1;
