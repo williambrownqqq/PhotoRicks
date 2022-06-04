@@ -21,33 +21,40 @@ header{
     height: 100vh;
 }
 header p{ 
-    position: absolute;
+     position: absolute;
     right: 17%;
-    bottom: 20%;
+    bottom: 20%; 
     padding: 50px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
 }
 .button{
-    position: absolute;
+     position: absolute;
     right: 40%;
-    bottom: 20%;
+    bottom: 20%; 
     border-radius: 15px;
-    background-color: rgb(162, 229, 217,0.5 );
+    background-color: rgb(108, 153, 145, 0.5);
     border: none;
     color: rgb(255, 255, 255, 1);
     padding: 16px 32px;
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
-    opacity: 0.6;
+    opacity: 0.8;
     transition: 0.3s;
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
 }
 .button:hover {opacity: 1}
+
+
+/* .quotexbutton{
+    background-color: aquamarine;
+    padding-top: 500px;
+}
+
 
 /*сама картинка*/
 .cameraLogo{
@@ -144,6 +151,30 @@ nav ul li a:hover{
     display: none;
  
 }
+
+
+@media screen and (max-width:1000px) {
+.cameraLogo{
+    width: 60px;
+    
+}
+/*сам квадратик*/
+.webLogo{
+    margin: 18px 50px;
+}
+
+header p{
+    right: 0%;
+    bottom: 28%;
+    font-size: 36px;
+}
+.button{
+    right: 55%;
+    bottom: 28%;
+    font-size: 20px;
+}
+}
+
 @media screen and (max-width:1400px) {
     .burger{
         display: block;
@@ -173,12 +204,4 @@ nav ul li a:hover{
     
 }
 
-@media screen and (max-width:1000px) {
-.cameraLogo{
-    width: 60px;
-}
-/*сам квадратик*/
-.webLogo{
-    margin: 18px 50px;
-}
-}
+
